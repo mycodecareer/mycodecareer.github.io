@@ -1,6 +1,6 @@
 {
   "name": "mycodecareer.github.io",
-  "homepage": "http://mycodecareer.github.io",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
