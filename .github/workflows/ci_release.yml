@@ -1,0 +1,28 @@
+name: Release
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    name: "Checks and Tests"
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+      - name: "Run Yarn Basic Checks"
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ inputs.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      # Yarn equivalent of npm ci.
+      - run: yarn install --frozen-lockfile
+      - run: yarn lint
+      - run: yarn test
+
