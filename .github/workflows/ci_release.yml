@@ -1,4 +1,4 @@
-name: Release
+name: CI and Release
 on:
   push:
     branches: [main]
@@ -24,4 +24,3 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lint
       - run: yarn test
-
