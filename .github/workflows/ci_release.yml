@@ -15,7 +15,6 @@ jobs:
         node-version: [14.x, 16.x, 18.x]
 
     steps:
-      - name: "Run Yarn Basic Checks"
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ inputs.node-version }}
         uses: actions/setup-node@v3
