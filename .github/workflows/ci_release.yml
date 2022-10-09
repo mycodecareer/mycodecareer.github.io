@@ -23,3 +23,30 @@ jobs:
       # Yarn equivalent of npm ci.
       - run: yarn install --frozen-lockfile
       - run: yarn lint
+
+  # Auto-merge Dependabot PRs. Requires also `.github/.kodiak.toml`.
+  dependabot:
+    name: "Approve and Merge Dependabot PRs"
+    # - Must be a PR.
+    # - The latest actor must be Dependabot. This prevents other users from
+    #   sneaking in changes into the PR.
+    if: ${{ github.event_name == 'pull_request' && github.actor == 'dependabot[bot]' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v1.3.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Approve PR
+        run: gh pr review --approve "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enable auto-merge for Dependabot PRs
+        run: gh pr merge --auto --merge "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
