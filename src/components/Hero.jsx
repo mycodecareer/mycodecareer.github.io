@@ -8,10 +8,8 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleNavigation = () => {
-    navigate("/about")
-
-
-  }
+    navigate("/about");
+  };
 
   return (
     <main className="custom-img-hero">
@@ -25,11 +23,19 @@ const Hero = () => {
               Connecting developers with mentors worldwide
             </p>
             <div className="max-w-64 sm:w-72 ">
-              <Button text="schedule a call" type="primary" onClick={handleNavigation} />
+              <Button
+                text="schedule a call"
+                type="primary"
+                onClick={handleNavigation}
+              />
             </div>
           </section>
           <section className="flex justify-center items-center flex-1 ">
-            <img src={HeaderImage} alt="#" className="aspect-square w-full h-full" />
+            <img
+              src={HeaderImage}
+              alt="#"
+              className="aspect-square w-full h-full"
+            />
           </section>
         </header>
       </Layout>

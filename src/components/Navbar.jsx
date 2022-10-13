@@ -5,13 +5,13 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 const navLinks = {
   home: "/",
   "about me": "/about",
-  contact: "/contact"
+  contact: "/contact",
 };
 
 const Navbar = () => {
   //* STATES
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [navColor, setNavColor] = useState("")
+  const [navColor, setNavColor] = useState("");
 
   //* EVENT HANDLERS
   const handleMenuToggle = () => {
@@ -20,14 +20,18 @@ const Navbar = () => {
 
   //* Change Navbar color on scroll
   const changeNavColor = () => {
-    if(window.scrollY >= 80) {
-      setNavColor("accent")
-    } else {setNavColor("transparent")}
-  }
-  window.addEventListener("scroll", changeNavColor)
+    if (window.scrollY >= 80) {
+      setNavColor("accent");
+    } else {
+      setNavColor("transparent");
+    }
+  };
+  window.addEventListener("scroll", changeNavColor);
 
   return (
-    <nav className={`flex justify-between items-center px-8 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}>
+    <nav
+      className={`flex justify-between items-center px-8 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}
+    >
       <section>
         <Link to="/" className="text-3xl">
           LOGO
@@ -42,13 +46,19 @@ const Navbar = () => {
           );
         })}
       </ul>
-      {isMenuOpen ? <RiCloseLine fontSize={"2rem"}
-        className="lg:hidden cursor-pointer fixed right-8"
-        onClick={handleMenuToggle}/> : <RiMenu3Line
-        fontSize={"2rem"}
-        className="lg:hidden cursor-pointer fixed right-8"
-        onClick={handleMenuToggle}
-      />}
+      {isMenuOpen ? (
+        <RiCloseLine
+          fontSize={"2rem"}
+          className="lg:hidden cursor-pointer fixed right-8"
+          onClick={handleMenuToggle}
+        />
+      ) : (
+        <RiMenu3Line
+          fontSize={"2rem"}
+          className="lg:hidden cursor-pointer fixed right-8"
+          onClick={handleMenuToggle}
+        />
+      )}
       {/* Dropdown Menu */}
       {isMenuOpen && (
         <section>
@@ -56,7 +66,10 @@ const Navbar = () => {
             {Object.keys(navLinks).map((link) => {
               return (
                 <li key={link} className="ml-1 uppercase text-2xl">
-                  <Link to={navLinks[link]} onClick={handleMenuToggle}> {link} </Link>
+                  <Link to={navLinks[link]} onClick={handleMenuToggle}>
+                    {" "}
+                    {link}{" "}
+                  </Link>
                 </li>
               );
             })}
