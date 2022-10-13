@@ -26,7 +26,7 @@ jobs:
       - run: yarn build
 
   deploy:
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    # if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     name: "Deploy to Github Pages"
     runs-on: ubuntu-latest
     steps:
