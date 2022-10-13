@@ -26,6 +26,7 @@ jobs:
       - run: yarn build
 
   deploy:
+    needs: check
     # if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     name: "Deploy to Github Pages"
     runs-on: ubuntu-latest
@@ -36,7 +37,13 @@ jobs:
           node-version: 18.x
       # Yarn equivalent of npm ci.
       - run: yarn install --frozen-lockfile
-      - run: yarn deploy
+      - run: yarn build
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Auto-merge Dependabot PRs. Requires also `.github/.kodiak.toml`.
   dependabot:
