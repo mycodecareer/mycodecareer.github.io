@@ -34,7 +34,11 @@ const Navbar = () => {
     >
       <section className="w-80">
         <Link to="/">
-            <img src="logo-with-text-transp.png" alt="" className="w-full h-full"/>
+          <img
+            src="logo-with-text-transp.png"
+            alt=""
+            className="w-full h-full"
+          />
         </Link>
       </section>
       <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">

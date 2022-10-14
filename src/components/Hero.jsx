@@ -4,9 +4,11 @@ import Layout from "../components/common/Layout";
 import HeaderImage from "../assets/headerIMG.svg";
 
 const Hero = () => {
-
   const handleNavigation = () => {
-    window.open("https://calendly.com/mycodecareer/code-career-clarity-call", "_blank")
+    window.open(
+      "https://calendly.com/mycodecareer/code-career-clarity-call",
+      "_blank"
+    );
   };
 
   return (
