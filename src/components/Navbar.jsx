@@ -32,9 +32,9 @@ const Navbar = () => {
     <nav
       className={`flex justify-between items-center px-8 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}
     >
-      <section>
-        <Link to="/" className="text-3xl">
-          LOGO
+      <section className="w-80">
+        <Link to="/">
+            <img src="logo-with-text-transp.png" alt="" className="w-full h-full"/>
         </Link>
       </section>
       <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
