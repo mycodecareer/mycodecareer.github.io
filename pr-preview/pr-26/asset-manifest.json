@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pr-preview/pr-26/static/css/main.4956d067.css",
+    "main.js": "/pr-preview/pr-26/static/js/main.fa64cda5.js",
+    "static/media/polygon.svg": "/pr-preview/pr-26/static/media/polygon.d6e7d44ba8b553c39a08.svg",
+    "static/media/collab1.svg": "/pr-preview/pr-26/static/media/collab1.16dfa2a7245871b1ada49710ef04dd1f.svg",
+    "static/media/transp-logo.png": "/pr-preview/pr-26/static/media/transp-logo.47b1ee4cfc57aad77e13.png",
+    "static/media/collab2.svg": "/pr-preview/pr-26/static/media/collab2.bbd74a524e49774d835f382eaf3aee36.svg",
+    "static/media/headerIMG.svg": "/pr-preview/pr-26/static/media/headerIMG.cc9a4f5943ebe8d8e59d9b4b9829656b.svg",
+    "index.html": "/pr-preview/pr-26/index.html",
+    "main.4956d067.css.map": "/pr-preview/pr-26/static/css/main.4956d067.css.map",
+    "main.fa64cda5.js.map": "/pr-preview/pr-26/static/js/main.fa64cda5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4956d067.css",
+    "static/js/main.fa64cda5.js"
+  ]
+}
