@@ -21,10 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install and Build
-        run: |
-          npm install
-          PUBLIC_URL='/pr-preview/pr-{{ github.ref }}' npm run build
+      - name: Install
+        run: npm install
+      - name: Build
+        run: PUBLIC_URL='/pr-preview/pr-${{ github.ref }}' npm run build
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
