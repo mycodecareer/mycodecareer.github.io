@@ -23,6 +23,7 @@ jobs:
 
       - name: Install and Build
         run: |
+          export PUBLIC_URL='./pr-preview/pr-{{ github.ref }}''
           npm install
           npm run build
 
