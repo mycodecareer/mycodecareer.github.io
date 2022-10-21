@@ -1,14 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router";
 import Button from "./common/Button";
 import Layout from "../components/common/Layout";
 import HeaderImage from "../assets/headerIMG.svg";
 
 const Hero = () => {
-  const navigate = useNavigate();
-
   const handleNavigation = () => {
-    navigate("/about");
+    window.open(
+      "https://calendly.com/mycodecareer/code-career-clarity-call",
+      "_blank"
+    );
   };
 
   return (
