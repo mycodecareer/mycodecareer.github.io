@@ -23,9 +23,8 @@ jobs:
 
       - name: Install and Build
         run: |
-          export PUBLIC_URL='./pr-preview/pr-{{ github.ref }}'
           npm install
-          npm run build
+          PUBLIC_URL='/pr-preview/pr-{{ github.ref }}' npm run build
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
