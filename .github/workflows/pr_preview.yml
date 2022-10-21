@@ -8,9 +8,9 @@ on:
       - reopened
       - synchronize
       - closed
-    # paths:
-    #   - "src/**"
-    #   - "public/**"
+    paths:
+      - "src/**"
+      - "public/**"
 
 concurrency: preview-${{ github.ref }}
 
