@@ -15,14 +15,16 @@ const About = () => {
             architecto nostrum natus porro. Mollitia temporibus nihil veniam
             officiis nesciunt hic consequatur reprehenderit autem corrupti
             voluptate est impedit eaque id, voluptas, ipsam nobis accusamus
-            odio.
-            Mollitia temporibus nihil veniam
-            officiis nesciunt hic consequatur reprehenderit autem corrupti
-            voluptate est impedit eaque id, voluptas, ipsam nobis accusamus
-            odio.
+            odio. Mollitia temporibus nihil veniam officiis nesciunt hic
+            consequatur reprehenderit autem corrupti voluptate est impedit eaque
+            id, voluptas, ipsam nobis accusamus odio.
           </section>
           <section className="flex justify-center items-center lg:flex-1">
-            <img src={Portrait} alt="matthew-sevey-portrait"  className="w-full h-full rounded-md"/>
+            <img
+              src={Portrait}
+              alt="matthew-sevey-portrait"
+              className="w-full h-full rounded-md"
+            />
           </section>
         </section>
         <section className="flex flex-col-reverse justify-between items-center flex-wrap gap-4 mt-12 w-full sm:gap-8 md:flex-row lg:flex-row-reverse">
@@ -30,10 +32,14 @@ const About = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
             atque maxime sapiente hic! Dolore inventore cupiditate possimus?
             Numquam voluptas, sit cum obcaecati repellendus vel similique
-            architecto nostrum natus porro. 
+            architecto nostrum natus porro.
           </section>
           <section className="flex justify-center items-center md:flex-1 lg:flex-1">
-            <img src={Portrait} alt="matthew-sevey-portrait"  className="w-full h-full rounded-md md:aspect-auto "/>
+            <img
+              src={Portrait}
+              alt="matthew-sevey-portrait"
+              className="w-full h-full rounded-md md:aspect-auto "
+            />
           </section>
         </section>
       </section>
