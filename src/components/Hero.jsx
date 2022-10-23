@@ -2,11 +2,12 @@ import React from "react";
 import Button from "./common/Button";
 import Layout from "../components/common/Layout";
 import HeaderImage from "../assets/headerIMG.svg";
+import { CalednlyClarityCallLink } from '../constants/constants';
 
 const Hero = () => {
   const handleNavigation = () => {
     window.open(
-      "https://calendly.com/mycodecareer/code-career-clarity-call",
+      CalednlyClarityCallLink,
       "_blank"
     );
   };
