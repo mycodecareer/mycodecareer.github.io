@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import LOGO from "../assets/transp-logo.png";
 
 const navLinks = {
   home: "/",
@@ -32,11 +33,15 @@ const Navbar = () => {
     <nav
       className={`flex justify-between items-center px-8 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}
     >
-      <section>
-        <Link to="/" className="text-3xl">
-          LOGO
+      <div className="p-2">
+        <Link to="/">
+          <img
+            src={LOGO}
+            alt="company-logo"
+            className="aspect-square w-16 h-16"
+          />
         </Link>
-      </section>
+      </div>
       <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
         {Object.keys(navLinks).map((link) => {
           return (
