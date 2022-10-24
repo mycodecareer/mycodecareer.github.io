@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex justify-between items-center px-8 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}
+      className={`flex justify-between items-center px-4 lg:px-10 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}
     >
       <div className="p-2">
         <Link to="/">
@@ -54,13 +54,13 @@ const Navbar = () => {
       {isMenuOpen ? (
         <RiCloseLine
           fontSize={"2rem"}
-          className="lg:hidden cursor-pointer fixed right-8"
+          className="lg:hidden cursor-pointer fixed right-4"
           onClick={handleMenuToggle}
         />
       ) : (
         <RiMenu3Line
           fontSize={"2rem"}
-          className="lg:hidden cursor-pointer fixed right-8"
+          className="lg:hidden cursor-pointer fixed right-4"
           onClick={handleMenuToggle}
         />
       )}
