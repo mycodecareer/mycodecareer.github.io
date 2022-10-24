@@ -1,14 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router";
 import Button from "./common/Button";
 import Layout from "../components/common/Layout";
 import HeaderImage from "../assets/headerIMG.svg";
+import { CalendlyClarityCallLink } from "../constants/constants";
 
 const Hero = () => {
-  const navigate = useNavigate();
-
   const handleNavigation = () => {
-    navigate("/about");
+    window.open(CalendlyClarityCallLink, "_blank");
   };
 
   return (
