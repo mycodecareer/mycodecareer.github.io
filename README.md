@@ -1,3 +1,5 @@
+[![CI and Release](https://github.com/mycodecareer/mycodecareer.github.io/actions/workflows/ci_release.yml/badge.svg)](https://github.com/mycodecareer/mycodecareer.github.io/actions/workflows/ci_release.yml)
+[![pages-build-deployment](https://github.com/mycodecareer/mycodecareer.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mycodecareer/mycodecareer.github.io/actions/workflows/pages/pages-build-deployment)
 # Welcome to My Code Career!
 
 My Code Career was started to share my experience changing careers. Leaving
