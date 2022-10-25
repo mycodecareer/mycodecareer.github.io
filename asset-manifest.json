@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.182aa382.css",
-    "main.js": "./static/js/main.0fc62df6.js",
-    "static/media/Matt_large.png": "./static/media/Matt_large.1e01add0c0895931ed1b.png",
-    "static/media/polygon.svg": "./static/media/polygon.d6e7d44ba8b553c39a08.svg",
-    "static/media/collab1.svg": "./static/media/collab1.16dfa2a7245871b1ada49710ef04dd1f.svg",
-    "static/media/transp-logo.png": "./static/media/transp-logo.47b1ee4cfc57aad77e13.png",
-    "static/media/collab2.svg": "./static/media/collab2.bbd74a524e49774d835f382eaf3aee36.svg",
-    "static/media/headerIMG.svg": "./static/media/headerIMG.cc9a4f5943ebe8d8e59d9b4b9829656b.svg",
-    "index.html": "./index.html",
-    "main.182aa382.css.map": "./static/css/main.182aa382.css.map",
-    "main.0fc62df6.js.map": "./static/js/main.0fc62df6.js.map"
+    "main.css": "/static/css/main.635bc10d.css",
+    "main.js": "/static/js/main.ab57dbec.js",
+    "static/media/Matt_large.png": "/static/media/Matt_large.1e01add0c0895931ed1b.png",
+    "static/media/polygon.svg": "/static/media/polygon.d6e7d44ba8b553c39a08.svg",
+    "static/media/collab1.svg": "/static/media/collab1.16dfa2a7245871b1ada49710ef04dd1f.svg",
+    "static/media/transp-logo.png": "/static/media/transp-logo.47b1ee4cfc57aad77e13.png",
+    "static/media/collab2.svg": "/static/media/collab2.bbd74a524e49774d835f382eaf3aee36.svg",
+    "static/media/headerIMG.svg": "/static/media/headerIMG.cc9a4f5943ebe8d8e59d9b4b9829656b.svg",
+    "index.html": "/index.html",
+    "main.635bc10d.css.map": "/static/css/main.635bc10d.css.map",
+    "main.ab57dbec.js.map": "/static/js/main.ab57dbec.js.map"
   },
   "entrypoints": [
-    "static/css/main.182aa382.css",
-    "static/js/main.0fc62df6.js"
+    "static/css/main.635bc10d.css",
+    "static/js/main.ab57dbec.js"
   ]
 }
