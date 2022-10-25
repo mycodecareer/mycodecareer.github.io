@@ -44,7 +44,7 @@ jobs:
           keep_history: true
           verbose: true
           # Dry run when not a push event to main
-          # dry_run: ${{ github.event_name != 'push' || github.ref != 'refs/heads/main' }}
+          dry_run: ${{ github.event_name != 'push' || github.ref != 'refs/heads/main' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
