@@ -35,8 +35,8 @@ jobs:
         with:
           node-version: 18.x
       # Yarn equivalent of npm ci.
-      - run: yarn install --frozen-lockfile
-      - run: PUBLIC_URL='.' yarn build
+      - run: npm install
+      - run: PUBLIC_URL='.' npm run build
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: gh-pages
