@@ -1,18 +1,13 @@
 import React from "react";
-import Button from "./common/Button";
-import Layout from "../components/common/Layout";
-import HeaderImage from "../assets/headerIMG.svg";
-import { CalendlyClarityCallLink } from "../constants/constants";
+import CTAButton from "../common/CTA/Button";
+import Layout from "../common/Layout/Layout";
+import HeaderImage from "../../assets/headerIMG.svg";
 
 const Hero = () => {
-  const handleNavigation = () => {
-    window.open(CalendlyClarityCallLink, "_blank");
-  };
-
   return (
-    <main className="custom-img-hero">
+    <main className="h-screen mt-40 custom-img-hero md:mt-56">
       <Layout>
-        <header className="flex flex-col flex-wrap justify-center items-center h-screen w-full gap-4 pt-12 lg:grid lg:grid-cols-2 lg:place-content-center xl:grid-cols-3">
+        <header className="flex flex-col flex-wrap justify-center items-center  w-full gap-4 pt-12 lg:grid lg:grid-cols-2 lg:place-content-center xl:grid-cols-3 skew-y-12">
           <section className="flex flex-col flex-wrap justify-center items-center w-full flex-1 gap-4 lg:place-items-start xl:col-span-2">
             <h2 className="uppercase text-6xl text-center sm:text-7xl font-bold mb-1 sm:tracking-widest text-dark-blue lg:text-left">
               coding coach
@@ -21,11 +16,7 @@ const Hero = () => {
               Connecting developers with mentors worldwide
             </p>
             <div className="max-w-64 sm:w-72 ">
-              <Button
-                text="schedule a call"
-                type="primary"
-                onClick={handleNavigation}
-              />
+              <CTAButton text="schedule a call" type="primary" />
             </div>
           </section>
           <section className="flex justify-center items-center flex-1 ">

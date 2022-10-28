@@ -1,17 +1,14 @@
 import React from "react";
-import CTA from "../components/common/CTA";
-import Layout from "../components/common/Layout";
-import Hero from "../components/Hero";
-import OurServices from "../components/OurServices";
+import CTA from "../components/common/CTA/CTA";
+import Hero from "../components/Hero/Hero";
+import OurServices from "../components/OurServices/OurServices";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      <Layout>
-        <OurServices />
-        <CTA />
-      </Layout>
+      <OurServices />
+      <CTA />
     </>
   );
 };
