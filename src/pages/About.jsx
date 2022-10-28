@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../components/common/Layout";
+import Layout from "../components/common/Layout/Layout";
 import Portrait from "../assets/Matt_large.png";
-import SectionRow from "../components/common/SectionRow";
+import SectionRow from "../components/OurServices/SectionRow";
 
 const About = () => {
   return (

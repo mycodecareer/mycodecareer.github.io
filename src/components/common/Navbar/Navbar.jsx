@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import LOGO from "../assets/transp-logo.png";
+import LOGO from "../../../assets/transp-logo.png";
 
 const navLinks = {
   home: "/",

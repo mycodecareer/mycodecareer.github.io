@@ -21,4 +21,5 @@ body::-webkit-scrollbar {
 
 .custom-img-hero {
   background: center/cover no-repeat url("./assets/polygon.svg");
+  transform: skewY(-12deg);
 }
