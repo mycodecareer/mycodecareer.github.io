@@ -6,7 +6,7 @@ import SectionRow from "../components/OurServices/SectionRow";
 const About = () => {
   return (
     <Layout>
-      <section className="flex flex-col justify-start items-start gap-4 sm:mt-12 sm:gap-8 lg:mt-48">
+      <section className="flex flex-col justify-start items-start gap-4 mt-36 sm:gap-12 lg:mt-48">
         <div className="text-4xl lg:text-5xl"> About Me </div>
         <SectionRow
           text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
