@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pr-preview/pr-37/static/css/main.30d2ba00.css",
-    "main.js": "/pr-preview/pr-37/static/js/main.e3f39ede.js",
+    "main.css": "/pr-preview/pr-37/static/css/main.5d1ec6ba.css",
+    "main.js": "/pr-preview/pr-37/static/js/main.a9114eaa.js",
     "static/media/Matt_large.png": "/pr-preview/pr-37/static/media/Matt_large.1e01add0c0895931ed1b.png",
     "static/media/polygon.svg": "/pr-preview/pr-37/static/media/polygon.d6e7d44ba8b553c39a08.svg",
     "static/media/collab1.svg": "/pr-preview/pr-37/static/media/collab1.16dfa2a7245871b1ada49710ef04dd1f.svg",
@@ -10,11 +10,11 @@
     "static/media/headerIMG.svg": "/pr-preview/pr-37/static/media/headerIMG.cc9a4f5943ebe8d8e59d9b4b9829656b.svg",
     "index.html": "/pr-preview/pr-37/index.html",
     "static/media/triangleAsymmetricalNegative.svg": "/pr-preview/pr-37/static/media/triangleAsymmetricalNegative.415f0399c0358b9ad8aa6c561707913d.svg",
-    "main.30d2ba00.css.map": "/pr-preview/pr-37/static/css/main.30d2ba00.css.map",
-    "main.e3f39ede.js.map": "/pr-preview/pr-37/static/js/main.e3f39ede.js.map"
+    "main.5d1ec6ba.css.map": "/pr-preview/pr-37/static/css/main.5d1ec6ba.css.map",
+    "main.a9114eaa.js.map": "/pr-preview/pr-37/static/js/main.a9114eaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.30d2ba00.css",
-    "static/js/main.e3f39ede.js"
+    "static/css/main.5d1ec6ba.css",
+    "static/js/main.a9114eaa.js"
   ]
 }
