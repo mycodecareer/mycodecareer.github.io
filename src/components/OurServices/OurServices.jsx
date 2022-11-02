@@ -17,8 +17,7 @@ const OurServices = () => {
           <div className="flex flex-col-reverse justify-evenly items-center gap-6 w-full lg:flex-row-reverse lg:justify-between lg:gap-24 ">
             <div className="flex flex-col justify-start items-start flex-wrap text-left gap-8 w-full lg:w-1/2">
               <h3 className="text-4xl font-bold md:text-5xl md:pr-10 md:font-normal">
-                {" "}
-                One-on-one live mentorship{" "}
+                One-on-one live mentorship
               </h3>
               <div className="flex flex-col justify-center items-start gap-2 w-full mb-12">
                 <BulletPoint
