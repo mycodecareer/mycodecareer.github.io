@@ -94,7 +94,11 @@ jobs:
     #   sneaking in changes into the PR.
     if: ${{ github.event_name == 'pull_request' && github.actor == 'dependabot[bot]' }}
     runs-on: ubuntu-latest
-
+    permissions:
+      actions: write
+      checks: write
+      pull-requests: write
+      statuses: write
     steps:
       - uses: actions/checkout@v3
       - name: Dependabot metadata
