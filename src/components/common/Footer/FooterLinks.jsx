@@ -1,8 +1,10 @@
-import React from "react";
+import { useNavigate } from "react-router";
 
 const FooterLinks = ({ heading, footerLinks }) => {
+  const navigate = useNavigate();
+
   const handleNavigateToLink = (url) => {
-    window.open(url, "_blank");
+    navigate(url);
   };
 
   return (
@@ -16,8 +18,7 @@ const FooterLinks = ({ heading, footerLinks }) => {
               onClick={() => handleNavigateToLink(link.url)}
               className="text-md cursor-pointer lg:text-lg"
             >
-              {" "}
-              {link.name}{" "}
+              {link.name}
             </p>
           );
         })}

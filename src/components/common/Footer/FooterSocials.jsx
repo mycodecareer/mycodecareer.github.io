@@ -2,7 +2,7 @@ import { GrFacebookOption, GrLinkedinOption, GrGithub } from "react-icons/gr";
 import { MdOutlineEmail } from "react-icons/md";
 import {
   FacebookLink,
-  InstagramLink,
+  LinkedInLink,
   GithubLink,
 } from "../../../constants/constants";
 
@@ -26,7 +26,7 @@ const FooterSocials = () => {
         />
         <GrLinkedinOption
           className={iconClasses}
-          onClick={() => handleNavigateToAccount(InstagramLink)}
+          onClick={() => handleNavigateToAccount(LinkedInLink)}
         />
         <GrGithub
           className={iconClasses}
@@ -35,7 +35,7 @@ const FooterSocials = () => {
       </section>
       <section className="flex justify-start items-center gap-1">
         <MdOutlineEmail className={iconClasses} />
-        <p className="text-sm sm:text-lg md:text-xl"> info@gmail.com </p>
+        <p className="text-sm sm:text-lg md:text-xl">hello@mycodecareer.com</p>
       </section>
     </section>
   );
