@@ -88,6 +88,7 @@ jobs:
 
   # Auto-merge Dependabot PRs. Requires also `.github/.kodiak.toml`.
   dependabot:
+    needs: deploy
     name: "Approve and Merge Dependabot PRs"
     # - Must be a PR.
     # - The latest actor must be Dependabot. This prevents other users from
@@ -108,7 +109,7 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL"
+        run: gh pr merge --auto --squash "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
