@@ -3,7 +3,7 @@ import GoalImage from "../../../assets/Journey-amico.png";
 
 const CTA = () => {
   return (
-    <section className="flex flex-col justify-center items-center overflow-hidden my-24 gap-8 p-8 lg:flex-row lg:p-16">
+    <section className="flex flex-col justify-center items-center overflow-hidden mt-32 mb-12 gap-8 p-8 lg:flex-row lg:p-16">
       <img
         src={GoalImage}
         alt="divider"

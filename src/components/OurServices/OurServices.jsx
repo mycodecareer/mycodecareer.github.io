@@ -10,7 +10,7 @@ import HeaderNormal from "../common/SectionHead/HeaderNormal";
 
 const OurServices = () => {
   return (
-    <section className="flex flex-col flex-wrap justify-evenly items-center">
+    <section className="flex flex-col flex-wrap justify-evenly items-center gap-8">
       <HeaderNormal text="Our Services" />
       <Layout>
         <section className="flex flex-col justify-between items-center w-full lg:gap-24 lg:mt-12 lg:mb-12">
