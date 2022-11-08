@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import LOGO from "../../../assets/transp-logo.png";
+import LOGOWITHTEXT from "../../../assets/logo-with-text.png";
 
 const navLinks = {
   home: "/",
@@ -38,7 +39,12 @@ const Navbar = () => {
           <img
             src={LOGO}
             alt="company-logo"
-            className="aspect-square w-16 h-16"
+            className="aspect-square w-16 h-16 lg:hidden"
+          />
+          <img
+            src={LOGOWITHTEXT}
+            alt="company-logo"
+            className="hidden lg:flex lg:aspect-video lg:w-72 lg:h-32"
           />
         </Link>
       </div>
