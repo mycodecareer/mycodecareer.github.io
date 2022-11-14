@@ -1,8 +1,9 @@
 import React from "react";
 import BulletPoint from "./BulletPoint";
+import { BsSpeedometer2 } from "react-icons/bs";
 import { VscDebug } from "react-icons/vsc";
-import { MdOutlinePersonPin } from "react-icons/md";
-import { RiQuestionAnswerLine } from "react-icons/ri";
+import { MdOutlinePersonPin, MdPhoneInTalk } from "react-icons/md";
+import { RiQuestionAnswerLine, RiTreasureMapLine } from "react-icons/ri";
 import CollabOne from "../../assets/collab1.svg";
 import CollabTwo from "../../assets/collab2.svg";
 import Layout from "../common/Layout/Layout";
@@ -21,16 +22,18 @@ const OurServices = () => {
               </h3>
               <div className="flex flex-col justify-center items-start gap-2 w-full mb-12">
                 <BulletPoint
-                  image={<VscDebug className="fill-secondary" />}
-                  text={"Debug with the help of an expert"}
+                  image={<RiTreasureMapLine className="fill-secondary" />}
+                  text={"Determine your roadmap for career success"}
                 />
                 <BulletPoint
-                  image={<MdOutlinePersonPin className="fill-secondary" />}
-                  text={"Personalize your learning experience"}
+                  image={<MdPhoneInTalk className="fill-secondary" />}
+                  text={"Learn how to book more interviews with less applying"}
                 />
                 <BulletPoint
-                  image={<RiQuestionAnswerLine className="fill-secondary" />}
-                  text={"Get answers to complex problems"}
+                  image={<BsSpeedometer2 className="fill-secondary" />}
+                  text={
+                    "Accelerate your growth with accountability and mentorship"
+                  }
                 />
               </div>
             </div>
@@ -52,15 +55,15 @@ const OurServices = () => {
               </h3>
               <div className="flex flex-col justify-center items-end gap-2 w-full">
                 <BulletPoint
-                  // image={<VscDebug />}
+                  image={<VscDebug className="fill-secondary" />}
                   text={"Debug with the help of an expert"}
                 />
                 <BulletPoint
-                  // image={<MdOutlinePersonPin />}
+                  image={<MdOutlinePersonPin className="fill-secondary" />}
                   text={"Personalize your learning experience"}
                 />
                 <BulletPoint
-                  // image={<RiQuestionAnswerLine />}
+                  image={<RiQuestionAnswerLine className="fill-secondary" />}
                   text={"Get answers to complex problems"}
                 />
               </div>

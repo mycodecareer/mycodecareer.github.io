@@ -1,6 +1,13 @@
+// Calendly Links
 export const CalendlyClarityCallLink =
   "https://calendly.com/mycodecareer/code-career-clarity-call";
+
+// Social Links
 export const FacebookLink =
   "https://www.facebook.com/groups/thesoftwaredeveloperroadmap";
 export const LinkedInLink = "https://www.linkedin.com/in/sevey/";
 export const GithubLink = "https://github.com/mycodecareer";
+
+// MailChimp
+export const MailChimpContactForm =
+  "https://us5.list-manage.com/contact-form?u=d9dafdeda110501ebfc83ef28&form_id=039c3975b713e9acac4af172485d61b3";
