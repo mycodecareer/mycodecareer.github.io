@@ -1,12 +1,10 @@
 import React from "react";
 import CTAButton from "../common/CTA/Button";
-// import Layout from "../common/Layout/Layout";
 import HeaderImage from "../../assets/Programming-amico.png";
 
 const Hero = () => {
   return (
     <main className="h-screen mt-44 custom-img-hero md:mt-52 px-4 lg:px-8">
-      {/* <Layout> */}
       <header className="flex flex-col justify-center items-center gap-16 w-full h-full skew-y-12 lg:flex-row">
         <section className="flex flex-col flex-wrap justify-center items-center w-full flex-1 gap-4 ">
           <h2 className="uppercase text-6xl text-center sm:text-7xl font-bold mb-1 sm:tracking-widest text-dark-blue ">
@@ -17,7 +15,7 @@ const Hero = () => {
             Developer Roadmap&#8482;
           </p>
           <div className="max-w-64 sm:w-72 ">
-            <CTAButton text="schedule a call" type="primary" />
+            <CTAButton text="schedule a call" />
           </div>
         </section>
         <section className="flex justify-center items-center flex-1 ">
@@ -28,7 +26,6 @@ const Hero = () => {
           />
         </section>
       </header>
-      {/* </Layout> */}
     </main>
   );
 };
