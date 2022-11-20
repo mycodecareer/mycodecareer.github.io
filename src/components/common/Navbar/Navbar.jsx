@@ -48,6 +48,7 @@ const Navbar = () => {
           />
         </Link>
       </div>
+      {/* Maximized menu */}
       <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
         {Object.keys(navLinks).map((link) => {
           return (
@@ -78,8 +79,7 @@ const Navbar = () => {
               return (
                 <li key={link} className="ml-1 uppercase text-2xl">
                   <Link to={navLinks[link]} onClick={handleMenuToggle}>
-                    {" "}
-                    {link}{" "}
+                    {link}
                   </Link>
                 </li>
               );
