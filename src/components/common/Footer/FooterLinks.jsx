@@ -3,8 +3,13 @@ import { useNavigate } from "react-router";
 const FooterLinks = ({ heading, footerLinks }) => {
   const navigate = useNavigate();
 
-  const handleNavigateToLink = (url) => {
-    navigate(url);
+  const handleNavigateToLink = (link) => {
+    if (link.name === "Masterclass") handleNavigationToExternal(link.url);
+    navigate(link.url);
+  };
+
+  const handleNavigationToExternal = (url) => {
+    window.open(url, "_blank");
   };
 
   return (
@@ -15,7 +20,7 @@ const FooterLinks = ({ heading, footerLinks }) => {
           return (
             <p
               key={link.id}
-              onClick={() => handleNavigateToLink(link.url)}
+              onClick={() => handleNavigateToLink(link)}
               className="text-md cursor-pointer lg:text-lg"
             >
               {link.name}

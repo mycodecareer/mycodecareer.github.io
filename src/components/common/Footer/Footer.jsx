@@ -1,15 +1,21 @@
 import FooterLinks from "./FooterLinks";
 import FooterSocials from "./FooterSocials";
 import Divider from "../../../assets/triangleAsymmetricalNegative.svg";
+import { MasterclassLink } from "../../../constants/constants";
 
 const footerLinks = [
   {
     id: 1,
+    name: "Masterclass",
+    url: MasterclassLink,
+  },
+  {
+    id: 2,
     name: "About",
     url: "/about",
   },
   {
-    id: 2,
+    id: 3,
     name: "Contact",
     url: "/contact",
   },

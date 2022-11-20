@@ -11,3 +11,6 @@ export const GithubLink = "https://github.com/mycodecareer";
 // MailChimp
 export const MailChimpContactForm =
   "https://us5.list-manage.com/contact-form?u=d9dafdeda110501ebfc83ef28&form_id=039c3975b713e9acac4af172485d61b3";
+
+// Masterclass
+export const MasterclassLink = "https://mycodecareer.com/masterclass";
