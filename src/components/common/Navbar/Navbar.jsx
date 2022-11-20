@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import LOGO from "../../../assets/transp-logo.png";
 import LOGOWITHTEXT from "../../../assets/logo-with-text.png";
+import { MasterclassLink } from "../../../constants/constants";
 
 const navLinks = {
   home: "/",
+  masterclass: MasterclassLink,
   "about me": "/about",
   contact: "/contact",
 };
@@ -29,7 +31,6 @@ const Navbar = () => {
     }
   };
   window.addEventListener("scroll", changeNavColor);
-
   return (
     <nav
       className={`flex justify-between items-center px-4 lg:px-10 gap-4 w-screen h-[80px] fixed top-0 z-10 drop-shadow-xs text-dark-blue bg-${navColor}`}
@@ -48,11 +49,16 @@ const Navbar = () => {
           />
         </Link>
       </div>
+      {/* Maximized menu */}
       <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
         {Object.keys(navLinks).map((link) => {
           return (
             <li key={link} className="ml-1 uppercase">
-              <Link to={navLinks[link]}> {link} </Link>
+              {link === "masterclass" ? (
+                <a href={navLinks[link]}>{link}</a>
+              ) : (
+                <Link to={navLinks[link]}>{link}</Link>
+              )}
             </li>
           );
         })}
@@ -77,10 +83,15 @@ const Navbar = () => {
             {Object.keys(navLinks).map((link) => {
               return (
                 <li key={link} className="ml-1 uppercase text-2xl">
-                  <Link to={navLinks[link]} onClick={handleMenuToggle}>
-                    {" "}
-                    {link}{" "}
-                  </Link>
+                  {link === "masterclass" ? (
+                    <a href={navLinks[link]} onClick={handleMenuToggle}>
+                      {link}
+                    </a>
+                  ) : (
+                    <Link to={navLinks[link]} onClick={handleMenuToggle}>
+                      {link}
+                    </Link>
+                  )}
                 </li>
               );
             })}
