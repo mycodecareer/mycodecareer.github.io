@@ -5,12 +5,25 @@ import LOGO from "../../../assets/transp-logo.png";
 import LOGOWITHTEXT from "../../../assets/logo-with-text.png";
 import { MasterclassLink } from "../../../constants/constants";
 
-const navLinks = {
-  home: "/",
-  masterclass: MasterclassLink,
-  "about me": "/about",
-  contact: "/contact",
-};
+const navLinks = [
+  {
+    name: "home",
+    url: "/",
+  },
+  {
+    name: "Masterclass",
+    url: MasterclassLink,
+    external: true,
+  },
+  {
+    name: "about",
+    url: "/about",
+  },
+  {
+    name: "contact",
+    url: "/contact",
+  },
+];
 
 const Navbar = () => {
   //* STATES
@@ -51,13 +64,13 @@ const Navbar = () => {
       </div>
       {/* Maximized menu */}
       <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
-        {Object.keys(navLinks).map((link) => {
+        {navLinks.map((link) => {
           return (
-            <li key={link} className="ml-1 uppercase">
-              {link === "masterclass" ? (
-                <a href={navLinks[link]}>{link}</a>
+            <li key={link.name} className="ml-1 uppercase">
+              {link.external ? (
+                <a href={link.url}>{link.name}</a>
               ) : (
-                <Link to={navLinks[link]}>{link}</Link>
+                <Link to={link.url}>{link.name}</Link>
               )}
             </li>
           );
@@ -82,14 +95,14 @@ const Navbar = () => {
           <ul className="flex flex-col justify-center items-center gap-6 p-4 absolute top-20 right-0 bg-accent w-full h-screen">
             {Object.keys(navLinks).map((link) => {
               return (
-                <li key={link} className="ml-1 uppercase text-2xl">
-                  {link === "masterclass" ? (
-                    <a href={navLinks[link]} onClick={handleMenuToggle}>
-                      {link}
+                <li key={link.name} className="ml-1 uppercase text-2xl">
+                  {link.external ? (
+                    <a href={link.url} onClick={handleMenuToggle}>
+                      {link.name}
                     </a>
                   ) : (
-                    <Link to={navLinks[link]} onClick={handleMenuToggle}>
-                      {link}
+                    <Link to={link.url} onClick={handleMenuToggle}>
+                      {link.name}
                     </Link>
                   )}
                 </li>

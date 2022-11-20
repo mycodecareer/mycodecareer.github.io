@@ -14,3 +14,7 @@ export const MailChimpContactForm =
 
 // Masterclass
 export const MasterclassLink = "https://mycodecareer.com/masterclass";
+
+// SDR Accelerator
+export const AcceleratorLink =
+  "https://shop.mycodecareer.com/products/sdr-accelerator";
