@@ -4,7 +4,7 @@ const FooterLinks = ({ heading, footerLinks }) => {
   const navigate = useNavigate();
 
   const handleNavigateToLink = (link) => {
-    if (link.name === "Masterclass") {
+    if (link.external) {
       handleNavigationToExternal(link.url);
       return;
     }
