@@ -93,7 +93,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <section>
           <ul className="flex flex-col justify-center items-center gap-6 p-4 absolute top-20 right-0 bg-accent w-full h-screen">
-            {Object.keys(navLinks).map((link) => {
+            {navLinks.map((link) => {
               return (
                 <li key={link.name} className="ml-1 uppercase text-2xl">
                   {link.external ? (
