@@ -1,7 +1,11 @@
 import FooterLinks from "./FooterLinks";
 import FooterSocials from "./FooterSocials";
 import Divider from "../../../assets/triangleAsymmetricalNegative.svg";
-import { AcceleratorLink, MasterclassLink } from "../../../constants/constants";
+import {
+  AcceleratorLink,
+  CoursesLink,
+  MasterclassLink,
+} from "../../../constants/constants";
 
 const footerLinks = [
   {
@@ -26,6 +30,12 @@ const resourceLinks = [
     id: 2,
     name: "Accelerator",
     url: AcceleratorLink,
+    external: true,
+  },
+  {
+    id: 3,
+    name: "Courses",
+    url: CoursesLink,
     external: true,
   },
 ];
