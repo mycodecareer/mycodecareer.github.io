@@ -18,3 +18,6 @@ export const MasterclassLink = "https://mycodecareer.com/masterclass";
 // SDR Accelerator
 export const AcceleratorLink =
   "https://shop.mycodecareer.com/products/sdr-accelerator";
+
+// SDR Courses
+export const CoursesLink = "https://mycodecareer.samcart.com/courses/directory";
