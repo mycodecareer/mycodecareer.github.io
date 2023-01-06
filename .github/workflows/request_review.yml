@@ -1,0 +1,21 @@
+name: Auto Request Review
+
+on:
+  pull_request_target:
+  pull_request:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{github.event_name}}
+
+  auto-request-review:
+    name: Auto Request Review
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request review based on files changes and/or groups the author belongs to
+        uses: necojackarc/auto-request-review@v0.10.0
+        with:
+          token: ${{ secrets.PAT_REVIEWS }}
+          config: .github/reviewers.yml # Config file location override
