@@ -9,6 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{github.event_name}}
+      - run: echo ${{github.repository_owner}}
+      - run: echo ${{github.base_ref}}
+      - run: echo ${{github.head_ref}}
+      - run: echo ${{github.ref_name}}
+      - run: echo ${{github.ref}}
 
   auto-request-review:
     name: Auto Request Review
