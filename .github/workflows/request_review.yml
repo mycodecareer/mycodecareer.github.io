@@ -2,8 +2,14 @@ name: Auto Request Review
 
 on:
   pull_request_target:
+  pull_request:
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{github.event_name}}
+
   auto-request-review:
     name: Auto Request Review
     runs-on: ubuntu-latest
