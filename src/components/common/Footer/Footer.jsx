@@ -18,6 +18,11 @@ const footerLinks = [
     name: "Contact",
     url: "/contact",
   },
+  {
+    id: 3,
+    name: "Privacy Policy",
+    url: "/privacy-policy",
+  },
 ];
 const resourceLinks = [
   {
