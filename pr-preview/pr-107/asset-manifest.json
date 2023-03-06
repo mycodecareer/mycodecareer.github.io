@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pr-preview/pr-107/static/css/main.b7dd47b8.css",
+    "main.css": "/pr-preview/pr-107/static/css/main.e3f4c4fb.css",
     "main.js": "/pr-preview/pr-107/static/js/main.05cd5c69.js",
     "static/media/Matt_large.png": "/pr-preview/pr-107/static/media/Matt_large.1e01add0c0895931ed1b.png",
     "static/media/matt_luna.jpeg": "/pr-preview/pr-107/static/media/matt_luna.d35b5b11f703a9c6637a.jpeg",
@@ -15,11 +15,11 @@
     "static/media/collab2.svg": "/pr-preview/pr-107/static/media/collab2.bbd74a524e49774d835f382eaf3aee36.svg",
     "index.html": "/pr-preview/pr-107/index.html",
     "static/media/triangleAsymmetricalNegative.svg": "/pr-preview/pr-107/static/media/triangleAsymmetricalNegative.415f0399c0358b9ad8aa6c561707913d.svg",
-    "main.b7dd47b8.css.map": "/pr-preview/pr-107/static/css/main.b7dd47b8.css.map",
+    "main.e3f4c4fb.css.map": "/pr-preview/pr-107/static/css/main.e3f4c4fb.css.map",
     "main.05cd5c69.js.map": "/pr-preview/pr-107/static/js/main.05cd5c69.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7dd47b8.css",
+    "static/css/main.e3f4c4fb.css",
     "static/js/main.05cd5c69.js"
   ]
 }
