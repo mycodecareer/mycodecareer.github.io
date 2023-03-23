@@ -56,7 +56,7 @@ const Footer = () => {
           <FooterLinks heading="links" footerLinks={footerLinks} />
         </section>
         <section className="text-xs text-text-main self-center sm:self-start sm:text-sm">
-          &copy;2022 My Code Career | Developed by Damilola Bada
+          &copy;2022 Matthew Sevey Consulting LLC
         </section>
       </footer>
     </>
