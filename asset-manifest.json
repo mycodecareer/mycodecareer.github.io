@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5f3f4121.css",
-    "main.js": "/static/js/main.2571b6ed.js",
+    "main.js": "/static/js/main.e1500462.js",
     "static/media/Matt_large.png": "/static/media/Matt_large.1e01add0c0895931ed1b.png",
     "static/media/matt_luna.jpeg": "/static/media/matt_luna.d35b5b11f703a9c6637a.jpeg",
     "static/media/Programming-amico.png": "/static/media/Programming-amico.c1d9610a7f17c77a6201.png",
@@ -16,10 +16,10 @@
     "index.html": "/index.html",
     "static/media/triangleAsymmetricalNegative.svg": "/static/media/triangleAsymmetricalNegative.415f0399c0358b9ad8aa6c561707913d.svg",
     "main.5f3f4121.css.map": "/static/css/main.5f3f4121.css.map",
-    "main.2571b6ed.js.map": "/static/js/main.2571b6ed.js.map"
+    "main.e1500462.js.map": "/static/js/main.e1500462.js.map"
   },
   "entrypoints": [
     "static/css/main.5f3f4121.css",
-    "static/js/main.2571b6ed.js"
+    "static/js/main.e1500462.js"
   ]
 }
