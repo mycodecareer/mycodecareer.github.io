@@ -1,5 +1,5 @@
 import React from "react";
-import CTAButton from "../common/CTA/Button";
+import CTAButton from "../common/CTA/CTAButton";
 import HeaderImage from "../../assets/Programming-amico.png";
 
 const Hero = () => {

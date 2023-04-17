@@ -23,10 +23,10 @@ const TextImageRow = ({ text, image, imageName, isReversed = false }) => {
       <section className="w-full text-lg p-2 lg:w-1/2">
         {textArray.map((textElement) => {
           return (
-            <>
+            <div key={textElement}>
               <p>{textElement}</p>
               <br />
-            </>
+            </div>
           );
         })}
       </section>

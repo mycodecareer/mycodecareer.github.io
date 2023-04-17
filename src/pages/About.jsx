@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "../components/common/CTA/CTA";
-import CTAButton from "../components/common/CTA/Button";
+import CTAButton from "../components/common/CTA/CTAButton";
 import Layout from "../components/common/Layout/Layout";
 import Portrait from "../assets/Matt_large.png";
 import SI_Talk from "../assets/SI_talk.jpeg";

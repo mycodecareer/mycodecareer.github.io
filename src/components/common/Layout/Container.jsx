@@ -6,6 +6,10 @@
  *
  */
 function Container(props, { positioning, spacing, lg, md, sm, xs }) {
+  // Establish Defaults
+  if (!positioning) positioning = "justify-center items-center";
+  if (!spacing) spacing = "w-full";
+
   return (
     <div
       className={`flex flex-col flex-wrap ${positioning} ${spacing} ${lg} ${md} ${sm} ${xs}`}

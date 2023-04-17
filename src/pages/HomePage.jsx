@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "../components/common/CTA/CTA";
-import CTAButton from "../components/common/CTA/Button";
+import CTAButton from "../components/common/CTA/CTAButton";
 import Hero from "../components/Hero/Hero";
 import OurServices from "../components/OurServices/OurServices";
 
