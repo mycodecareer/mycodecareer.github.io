@@ -1,6 +1,9 @@
 import React from "react";
 
-const SectionRow = ({ text, image, imageName, isReversed = false }) => {
+// The TextImageRow component represents a multiline text box and an image in a
+// row. The optional boolean parameter determines whether the order of the text
+// and image are reversed in the resulting TextImageRow component.
+const TextImageRow = ({ text, image, imageName, isReversed = false }) => {
   const baseClass =
     "flex flex-col-reverse justify-between items-center gap-4 mt-12 w-full sm:gap-8";
 
@@ -34,4 +37,4 @@ const SectionRow = ({ text, image, imageName, isReversed = false }) => {
   );
 };
 
-export default SectionRow;
+export default TextImageRow;
