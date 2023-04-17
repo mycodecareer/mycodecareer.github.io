@@ -1,11 +1,11 @@
 import React from "react";
 import CTA from "../components/common/CTA/CTA";
-import CTAButton from "../components/common/CTA/Button";
+import CTAButton from "../components/common/CTA/CTAButton";
 import Layout from "../components/common/Layout/Layout";
 import Portrait from "../assets/Matt_large.png";
 import SI_Talk from "../assets/SI_talk.jpeg";
 import Matt_Luna from "../assets/matt_luna.jpeg";
-import SectionRow from "../components/OurServices/SectionRow";
+import TextImageRow from "../components/common/Sections/TextImageRow";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       <Layout>
         <section className="flex flex-col justify-start items-start gap-4 mt-36 sm:gap-12 lg:mt-48">
           <div className="text-4xl lg:text-5xl"> About Me </div>
-          <SectionRow
+          <TextImageRow
             // {``} is used for passing newlines
             text={`Hi, I'm Matthew Sevey. I'm going to help you reach your next lever in your career as a software developer. 
           
@@ -22,7 +22,7 @@ const About = () => {
             imageName="Matthew's Portrait"
           />
 
-          <SectionRow
+          <TextImageRow
             text={`I didn't have a traditional path to becoming a software developer. 
           I don't have a CS Degree. 
           I started learning to code in my free time back in 2014, but it wasn't until 2018 that I finally landed my first job as a software developer. 
@@ -33,7 +33,7 @@ const About = () => {
             isReversed={true}
           />
 
-          <SectionRow
+          <TextImageRow
             text={`Since that first job, I've received raises and been promoted every single year. 
           I've more than doubled by starting salary. 
           I've been able to creating hiring plans, interview hundreds of engineers, and grow multiple teams. 

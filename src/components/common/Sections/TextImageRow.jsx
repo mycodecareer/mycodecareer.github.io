@@ -1,6 +1,10 @@
 import React from "react";
+import ImageContainer from "../Layout/ImageContainer";
 
-const SectionRow = ({ text, image, imageName, isReversed = false }) => {
+// The TextImageRow component represents a multiline text box and an image in a
+// row. The optional boolean parameter determines whether the order of the text
+// and image are reversed in the resulting TextImageRow component.
+const TextImageRow = ({ text, image, imageName, isReversed = false }) => {
   const baseClass =
     "flex flex-col-reverse justify-between items-center gap-4 mt-12 w-full sm:gap-8";
 
@@ -20,18 +24,18 @@ const SectionRow = ({ text, image, imageName, isReversed = false }) => {
       <section className="w-full text-lg p-2 lg:w-1/2">
         {textArray.map((textElement) => {
           return (
-            <>
+            <div key={textElement}>
               <p>{textElement}</p>
               <br />
-            </>
+            </div>
           );
         })}
       </section>
-      <section className="flex justify-center items-center lg:w-1/2">
+      <ImageContainer className="lg:w-1/2">
         <img src={image} alt={imageName} className="w-full h-full rounded-md" />
-      </section>
+      </ImageContainer>
     </section>
   );
 };
 
-export default SectionRow;
+export default TextImageRow;
