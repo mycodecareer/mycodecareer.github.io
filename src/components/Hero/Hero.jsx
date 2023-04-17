@@ -1,6 +1,7 @@
 import React from "react";
 import CTAButton from "../common/CTA/CTAButton";
 import HeaderImage from "../../assets/Programming-amico.png";
+import ImageContainer from "../common/Layout/ImageContainer";
 
 const Hero = () => {
   return (
@@ -18,13 +19,13 @@ const Hero = () => {
             <CTAButton text="schedule a call" />
           </div>
         </section>
-        <section className="flex justify-center items-center flex-1 ">
+        <ImageContainer>
           <img
             src={HeaderImage}
             alt="Web illustrations by Storyset"
             className="aspect-square w-full sm:w-4/5"
           />
-        </section>
+        </ImageContainer>
       </header>
     </main>
   );

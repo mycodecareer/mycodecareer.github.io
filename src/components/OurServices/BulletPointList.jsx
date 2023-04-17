@@ -1,4 +1,5 @@
 import BulletPoint from "./BulletPoint";
+import ImageContainer from "../common/Layout/ImageContainer";
 
 function BulletPointList({ title, bulletPoints, collabImg, reverse = false }) {
   const baseOuterDivCSS =
@@ -33,9 +34,9 @@ function BulletPointList({ title, bulletPoints, collabImg, reverse = false }) {
           })}
         </div>
       </div>
-      <div className="flex flex-1 justify-center items-center aspect-square">
+      <ImageContainer className="aspect-square">
         <img src={collabImg} alt="#" className="w-full h-full rounded-md" />
-      </div>
+      </ImageContainer>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import ImageContainer from "../Layout/ImageContainer";
 
 // The TextImageRow component represents a multiline text box and an image in a
 // row. The optional boolean parameter determines whether the order of the text
@@ -30,9 +31,9 @@ const TextImageRow = ({ text, image, imageName, isReversed = false }) => {
           );
         })}
       </section>
-      <section className="flex justify-center items-center lg:w-1/2">
+      <ImageContainer className="lg:w-1/2">
         <img src={image} alt={imageName} className="w-full h-full rounded-md" />
-      </section>
+      </ImageContainer>
     </section>
   );
 };

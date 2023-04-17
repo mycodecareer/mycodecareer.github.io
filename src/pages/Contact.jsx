@@ -2,6 +2,7 @@ import ContactImage from "../assets/Contact us-amico.png";
 import CTA from "../components/common/CTA/CTA";
 import CTAButton from "../components/common/CTA/CTAButton";
 import { MailChimpContactForm } from "../constants/constants";
+import ImageContainer from "../components/common/Layout/ImageContainer";
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
         />
       </CTA>
       <section className="flex flex-col justify-center items-center mt-48 gap-4 p-4  w-full sm:mt-52 sm:p-10 lg:mt-60">
-        <section className="flex justify-center items-center mt-24 p-1 lg:w-3/4 xl:w-2/3">
+        <section className="flex flex-1 justify-center items-center mt-24 p-1 lg:w-3/4 xl:w-2/3">
           <img
             src={ContactImage}
             alt="Someone contacting the company via phone"
