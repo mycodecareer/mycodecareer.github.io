@@ -2,7 +2,6 @@ import ContactImage from "../assets/Contact us-amico.png";
 import CTA from "../components/common/CTA/CTA";
 import CTAButton from "../components/common/CTA/CTAButton";
 import { MailChimpContactForm } from "../constants/constants";
-import ImageContainer from "../components/common/Layout/ImageContainer";
 
 const Contact = () => {
   return (
