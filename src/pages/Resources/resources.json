@@ -1,0 +1,16 @@
+[
+  {
+    "title": "My Page Title 1",
+    "subtitle": "My Page Subtitle 1",
+    "imageSrc": "https://example.com/image1.jpg",
+    "onSubmit": "handleSubmit1",
+    "urlSlug": "my-page-title-1"
+  },
+  {
+    "title": "My Page Title 2",
+    "subtitle": "My Page Subtitle 2",
+    "imageSrc": "https://example.com/image2.jpg",
+    "onSubmit": "handleSubmit2",
+    "urlSlug": "my-page-title-2"
+  }
+]
