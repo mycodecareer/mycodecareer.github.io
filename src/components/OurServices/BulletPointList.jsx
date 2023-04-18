@@ -17,7 +17,9 @@ function BulletPointList({ title, bulletPoints, collabImg, reverse = false }) {
   let h3CSS = reverse ? "pl-10" : "pr-10";
 
   return (
-    <div className={`flex flex-col-reverse w-full lg:gap-24 ${outerDivCSS}`}>
+    <div
+      className={`flex flex-col-reverse w-full mt-36 mb-24 lg:gap-24 ${outerDivCSS}`}
+    >
       <div className={`flex flex-col gap-8 w-full lg:w-1/2 ${innerDivCSS}`}>
         <h3
           className={`text-4xl font-bold md:text-5xl md:font-normal md:${h3CSS}`}
