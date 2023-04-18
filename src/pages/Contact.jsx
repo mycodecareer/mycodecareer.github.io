@@ -1,6 +1,6 @@
 import ContactImage from "../assets/Contact us-amico.png";
 import CTA from "../components/common/CTA/CTA";
-import CTAButton from "../components/common/CTA/CTAButton";
+import LinkButton from "../components/common/CTA/LinkButton";
 import { MailChimpContactForm } from "../constants/constants";
 
 const Contact = () => {
@@ -10,7 +10,7 @@ const Contact = () => {
         text=" Learn how we can help you reach your coding goals, send us an email
         today!"
       >
-        <CTAButton
+        <LinkButton
           text="Contact Us"
           type="secondary"
           link={MailChimpContactForm}

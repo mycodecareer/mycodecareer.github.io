@@ -1,5 +1,5 @@
 import React from "react";
-import CTAButton from "../common/CTA/CTAButton";
+import LinkButton from "../common/CTA/LinkButton";
 import HeaderImage from "../../assets/Programming-amico.png";
 import ImageContainer from "../common/Layout/ImageContainer";
 
@@ -16,7 +16,7 @@ const Hero = () => {
             Developer Roadmap&#8482;
           </p>
           <div className="max-w-64 sm:w-72 ">
-            <CTAButton text="schedule a call" />
+            <LinkButton text="schedule a call" />
           </div>
         </section>
         <ImageContainer>
