@@ -23,7 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         {resourcePages.map((page) => {
-          const { title, subtitle, urlSlug, onSubmit } = page;
+          const { title, subtitle, imageSrc, urlSlug, onSubmit } = page;
           const onSubmitFunc = getResourceFunction(onSubmit);
           return (
             <Route
@@ -33,7 +33,7 @@ function App() {
                 <ResourcePage
                   title={title}
                   subtitle={subtitle}
-                  // imageSrc={imageSrc}
+                  imageSrc={imageSrc}
                   // videoSrc={videoSrc}
                   onSubmit={onSubmitFunc}
                 />

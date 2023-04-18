@@ -1,5 +1,6 @@
 import InputField from "./InputField";
 import SelectField from "./SelectField";
+import Button from "../CTA/Button";
 
 const Form = ({ onSubmit }) => {
   //   const handleSubmit = (event) => {
@@ -9,7 +10,12 @@ const Form = ({ onSubmit }) => {
   //   };
 
   return (
-    <form onSubmit={onSubmit} className="space-y-4">
+    <form
+      onSubmit={(event) => {
+        onSubmit(event);
+      }}
+      className="space-y-4 m-4"
+    >
       <InputField label="Name" id="name" type="text" />
       <InputField label="Email" id="email" type="email" />
       <InputField label="Phone Number" id="phone" type="tel" />
@@ -25,12 +31,7 @@ const Form = ({ onSubmit }) => {
           "Other",
         ]}
       />
-      <button
-        type="submit"
-        className="w-full py-2 px-4 bg-blue-500 text-white rounded"
-      >
-        Submit
-      </button>
+      <Button text="Submit" type="secondary" buttonType="submit" />
     </form>
   );
 };
