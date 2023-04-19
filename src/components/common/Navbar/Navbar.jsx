@@ -68,7 +68,9 @@ const Navbar = () => {
           return (
             <li key={link.name} className="ml-1 uppercase">
               {link.external ? (
-                <a href={link.url}>{link.name}</a>
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  {link.name}
+                </a>
               ) : (
                 <Link to={link.url}>{link.name}</Link>
               )}

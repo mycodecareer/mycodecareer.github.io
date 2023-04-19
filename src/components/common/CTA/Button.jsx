@@ -1,14 +1,4 @@
-import { CalendlyClarityCallLink } from "../../../constants/constants";
-
-const CTAButton = ({
-  text = "button",
-  type = "primary",
-  link = CalendlyClarityCallLink,
-}) => {
-  const handleNavigation = () => {
-    window.open(link, "_blank");
-  };
-
+const Button = ({ text = "button", type = "primary", onClick, buttonType }) => {
   let baseClassName =
     "flex justify-center items-center w-full p-4 rounded-xl cursor-pointer text-xl";
   let className = `bg-secondary border-none uppercase text-white`;
@@ -18,11 +8,12 @@ const CTAButton = ({
   return (
     <button
       className={`${baseClassName} ${className}`}
-      onClick={handleNavigation}
+      onClick={onClick}
+      type={buttonType}
     >
       {text}
     </button>
   );
 };
 
-export default CTAButton;
+export default Button;

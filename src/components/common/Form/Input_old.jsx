@@ -3,7 +3,7 @@ import React from "react";
 let baseStyle =
   "w-full rounded-md p-2 bg-accent focus:ring focus:ring-opacity-75 focus:ring-secondary";
 
-const Input = ({
+const Input_old = ({
   type,
   name,
   label,
@@ -46,4 +46,4 @@ const Input = ({
   }
 };
 
-export default Input;
+export default Input_old;

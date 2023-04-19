@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "../components/common/CTA/CTA";
-import CTAButton from "../components/common/CTA/CTAButton";
+import LinkButton from "../components/common/CTA/LinkButton";
 import Layout from "../components/common/Layout/Layout";
 import Portrait from "../assets/Matt_large.png";
 import SI_Talk from "../assets/SI_talk.jpeg";
@@ -47,7 +47,7 @@ const About = () => {
         text="Learn how we can help you reach your coding goals, schedule a call
           today!"
       >
-        <CTAButton text="Get Started" type="secondary" />
+        <LinkButton text="Get Started" type="secondary" />
       </CTA>
     </>
   );
