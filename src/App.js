@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Refer from "./pages/Refer";
 import Testimonials from "./pages/Testimonials/Testimonials";
 
 // Pull in resource pages
@@ -28,6 +29,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/refer" element={<Refer />} />
         {resourcePages.map((page) => {
           const { title, subtitle, imageSrc, urlSlug, onSubmit } = page;
           const onSubmitFunc = getResourceFunction(onSubmit);
