@@ -25,6 +25,11 @@ const footerLinks = [
   },
   {
     id: 4,
+    name: "Refer",
+    url: "/refer",
+  },
+  {
+    id: 5,
     name: "Privacy Policy",
     url: "/privacy-policy",
   },
