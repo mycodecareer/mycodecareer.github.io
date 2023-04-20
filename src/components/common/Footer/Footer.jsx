@@ -20,6 +20,11 @@ const footerLinks = [
   },
   {
     id: 3,
+    name: "Testimonials",
+    url: "/testimonials",
+  },
+  {
+    id: 4,
     name: "Privacy Policy",
     url: "/privacy-policy",
   },
