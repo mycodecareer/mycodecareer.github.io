@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Testimonials from "./pages/Testimonials/Testimonials";
 
 // Pull in resource pages
 import ResourcePage from "./pages/Resources/ResourcePage";
@@ -46,6 +47,7 @@ function App() {
             />
           );
         })}
+        <Route path="/testimonials" element={<Testimonials />} />
         {/* <Route path="/refer" element={<Refer />} /> TODO */}
       </Routes>
       <Footer />
