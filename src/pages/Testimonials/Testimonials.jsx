@@ -2,8 +2,6 @@ import TestimonialCard from "./TestimonialCard";
 import testimonialData from "./testimonialdata.json";
 
 const Testimonials = () => {
-  // Replace the following data with your own testimonials
-
   return (
     <section className="container mx-auto px-4 py-8 mt-24">
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
