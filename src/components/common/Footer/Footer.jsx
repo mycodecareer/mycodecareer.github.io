@@ -26,7 +26,7 @@ const footerLinks = [
   {
     id: 4,
     name: "Refer",
-    url: "/refer",
+    url: `${process.env.PUBLIC_URL}/refer`,
   },
   {
     id: 5,
