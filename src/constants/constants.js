@@ -2,6 +2,9 @@
 export const CalendlyClarityCallLink =
   "https://calendly.com/mycodecareer/code-career-clarity-call";
 
+// Calendly Routing form to either set up a call or send to the FB group
+export const CalendlyRoutingFormLink = "https://calendly.com/d/d58-s83-3w8";
+
 // Social Links
 export const FacebookLink =
   "https://www.facebook.com/groups/thesoftwaredeveloperroadmap";
