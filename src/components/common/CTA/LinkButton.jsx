@@ -1,10 +1,10 @@
-import { CalendlyClarityCallLink } from "../../../constants/constants";
+import { CalendlyRoutingFormLink } from "../../../constants/constants";
 import Button from "./Button";
 
 const LinkButton = ({
   text = "button",
   type = "primary",
-  link = CalendlyClarityCallLink,
+  link = CalendlyRoutingFormLink,
 }) => {
   const handleNavigation = () => {
     window.open(link, "_blank");

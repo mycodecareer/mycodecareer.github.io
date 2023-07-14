@@ -16,7 +16,7 @@ const Hero = () => {
             Developer Roadmap&#8482;
           </p>
           <div className="max-w-64 sm:w-72 ">
-            <LinkButton text="schedule a call" />
+            <LinkButton text="learn more" />
           </div>
         </section>
         <ImageContainer>
