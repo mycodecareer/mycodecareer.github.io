@@ -6,6 +6,7 @@ export const CalendlyClarityCallLink =
 export const CalendlyRoutingFormLink = "https://calendly.com/d/d58-s83-3w8";
 
 // Social Links
+export const DiscordLink = "https://discord.gg/rwAPqND3Gk";
 export const FacebookLink =
   "https://www.facebook.com/groups/thesoftwaredeveloperroadmap";
 export const LinkedInLink = "https://www.linkedin.com/in/sevey/";

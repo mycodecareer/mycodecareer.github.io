@@ -17,7 +17,9 @@ const FooterLinks = ({ heading, footerLinks }) => {
 
   return (
     <section className="flex flex-col flex-wrap w-full justify-between items-center gap-1 sm:gap-4 sm:items-end sm:w-1/4">
-      <h3 className="uppercase text-xl lg:text-2xl"> {heading} </h3>
+      {heading && (
+        <h3 className="uppercase text-xl lg:text-2xl"> {heading} </h3>
+      )}
       <section className="flex flex-col flex-wrap flex-1 justify-center items-start">
         {footerLinks.map((link) => {
           return (

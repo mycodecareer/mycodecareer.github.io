@@ -12,8 +12,8 @@ const Hero = () => {
             My Code Career
           </h2>
           <p className="text-md mb-8 text-center text-text-main md:text-lg ">
-            Showing developers how to achieve career success with the Software
-            Developer Roadmap&#8482;
+            Showing developers how to achieve career success faster with the
+            Software Developer Roadmap&#8482;
           </p>
           <div className="max-w-64 sm:w-72 ">
             <LinkButton text="learn more" />

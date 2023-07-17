@@ -1,6 +1,8 @@
 import { GrFacebookOption, GrLinkedinOption, GrGithub } from "react-icons/gr";
+import { BsDiscord } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import {
+  DiscordLink,
   FacebookLink,
   LinkedInLink,
   GithubLink,
@@ -31,6 +33,10 @@ const FooterSocials = () => {
         <GrGithub
           className={iconClasses}
           onClick={() => handleNavigateToAccount(GithubLink)}
+        />
+        <BsDiscord
+          className={iconClasses}
+          onClick={() => handleNavigateToAccount(DiscordLink)}
         />
       </section>
       <section className="flex justify-start items-center gap-1">
