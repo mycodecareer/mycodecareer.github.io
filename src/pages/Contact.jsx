@@ -1,7 +1,6 @@
 import ContactImage from "../assets/Contact us-amico.png";
 import CTA from "../components/common/CTA/CTA";
 import LinkButton from "../components/common/CTA/LinkButton";
-import { MailChimpContactForm } from "../constants/constants";
 
 const Contact = () => {
   return (
@@ -13,7 +12,7 @@ const Contact = () => {
         <LinkButton
           text="Contact Us"
           type="secondary"
-          link={MailChimpContactForm}
+          link="mailto:hello@mycodecareer.com"
         />
       </CTA>
       <section className="flex flex-col justify-center items-center mt-48 gap-4 p-4  w-full sm:mt-52 sm:p-10 lg:mt-60">
