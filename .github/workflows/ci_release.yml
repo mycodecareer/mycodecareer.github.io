@@ -21,13 +21,13 @@ jobs:
   yamllint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/yamllint
 
   markdown-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/markdown-lint
 
   check:
@@ -40,7 +40,7 @@ jobs:
         node-version: [16.x, 18.x, 20.x]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Use Node.js ${{ inputs.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -55,7 +55,7 @@ jobs:
     name: "Deploy to Github Pages"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version: 20.x
@@ -79,7 +79,7 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' }}
     permissions: "write-all"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Version Release
         uses: ./.github/actions/version-release
         with:
@@ -97,7 +97,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@v1.6.0
