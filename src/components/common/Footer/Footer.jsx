@@ -1,7 +1,6 @@
 import FooterLinks from "./FooterLinks";
 import FooterSocials from "./FooterSocials";
 import Divider from "../../../assets/triangleAsymmetricalNegative.svg";
-import { CoursesLink } from "../../../constants/constants";
 
 const footerLinks = [
   {
@@ -13,12 +12,6 @@ const footerLinks = [
     id: 2,
     name: "Contact",
     url: "/contact",
-  },
-  {
-    id: 3,
-    name: "Courses",
-    url: CoursesLink,
-    external: true,
   },
   {
     id: 4,
