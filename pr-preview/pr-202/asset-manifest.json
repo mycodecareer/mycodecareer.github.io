@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pr-preview/pr-202/static/css/main.60d0c1a1.css",
-    "main.js": "/pr-preview/pr-202/static/js/main.edbe77b3.js",
+    "main.js": "/pr-preview/pr-202/static/js/main.c802164a.js",
     "static/media/Matt_large.png": "/pr-preview/pr-202/static/media/Matt_large.1e01add0c0895931ed1b.png",
     "static/media/matt_luna.jpeg": "/pr-preview/pr-202/static/media/matt_luna.d35b5b11f703a9c6637a.jpeg",
     "static/media/Programming-amico.png": "/pr-preview/pr-202/static/media/Programming-amico.c1d9610a7f17c77a6201.png",
@@ -16,10 +16,10 @@
     "index.html": "/pr-preview/pr-202/index.html",
     "static/media/triangleAsymmetricalNegative.svg": "/pr-preview/pr-202/static/media/triangleAsymmetricalNegative.415f0399c0358b9ad8aa6c561707913d.svg",
     "main.60d0c1a1.css.map": "/pr-preview/pr-202/static/css/main.60d0c1a1.css.map",
-    "main.edbe77b3.js.map": "/pr-preview/pr-202/static/js/main.edbe77b3.js.map"
+    "main.c802164a.js.map": "/pr-preview/pr-202/static/js/main.c802164a.js.map"
   },
   "entrypoints": [
     "static/css/main.60d0c1a1.css",
-    "static/js/main.edbe77b3.js"
+    "static/js/main.c802164a.js"
   ]
 }
