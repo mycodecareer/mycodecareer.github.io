@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pr-preview/pr-220/static/css/main.5b68166a.css",
-    "main.js": "/pr-preview/pr-220/static/js/main.519b6e80.js",
+    "main.css": "/pr-preview/pr-220/static/css/main.a9b73bce.css",
+    "main.js": "/pr-preview/pr-220/static/js/main.d97a6aa5.js",
     "static/media/Matt_large.png": "/pr-preview/pr-220/static/media/Matt_large.1e01add0c0895931ed1b.png",
     "static/media/matt_luna.jpeg": "/pr-preview/pr-220/static/media/matt_luna.d35b5b11f703a9c6637a.jpeg",
     "static/media/Programming-amico.png": "/pr-preview/pr-220/static/media/Programming-amico.c1d9610a7f17c77a6201.png",
@@ -15,11 +15,11 @@
     "static/media/collab2.svg": "/pr-preview/pr-220/static/media/collab2.bbd74a524e49774d835f382eaf3aee36.svg",
     "index.html": "/pr-preview/pr-220/index.html",
     "static/media/triangleAsymmetricalNegative.svg": "/pr-preview/pr-220/static/media/triangleAsymmetricalNegative.415f0399c0358b9ad8aa6c561707913d.svg",
-    "main.5b68166a.css.map": "/pr-preview/pr-220/static/css/main.5b68166a.css.map",
-    "main.519b6e80.js.map": "/pr-preview/pr-220/static/js/main.519b6e80.js.map"
+    "main.a9b73bce.css.map": "/pr-preview/pr-220/static/css/main.a9b73bce.css.map",
+    "main.d97a6aa5.js.map": "/pr-preview/pr-220/static/js/main.d97a6aa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b68166a.css",
-    "static/js/main.519b6e80.js"
+    "static/css/main.a9b73bce.css",
+    "static/js/main.d97a6aa5.js"
   ]
 }
