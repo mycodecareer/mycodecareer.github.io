@@ -3,21 +3,21 @@ import FooterSocials from "./FooterSocials";
 import Divider from "../../../assets/triangleAsymmetricalNegative.svg";
 
 const footerLinks = [
-  {
-    id: 1,
-    name: "About",
-    url: "/about",
-  },
-  {
-    id: 2,
-    name: "Contact",
-    url: "/contact",
-  },
-  {
-    id: 4,
-    name: "Testimonials",
-    url: "/testimonials",
-  },
+  // {
+  //   id: 1,
+  //   name: "About",
+  //   url: "/about",
+  // },
+  // {
+  //   id: 2,
+  //   name: "Contact",
+  //   url: "/contact",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Testimonials",
+  //   url: "/testimonials",
+  // },
   {
     id: 5,
     name: "Refer",

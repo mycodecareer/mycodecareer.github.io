@@ -1,10 +1,10 @@
 import GoalImage from "../../../assets/Journey-amico.png";
 
-const CTA = ({ text = "text", children }) => {
+const CTA = ({ text = "text", image = GoalImage, children }) => {
   return (
     <section className="flex flex-col justify-center items-center overflow-hidden mt-32 mb-12 gap-8 p-8 lg:flex-row lg:p-16">
       <img
-        src={GoalImage}
+        src={image}
         alt="divider"
         className="w-full sm:w-9/12 md:w-1/2 lg:w-1/3"
       />

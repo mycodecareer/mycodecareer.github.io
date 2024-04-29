@@ -3,24 +3,24 @@ import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import LOGO from "../../../assets/transp-logo.png";
 import LOGOWITHTEXT from "../../../assets/logo-with-text.png";
-import { CalendlyRoutingFormLink } from "../../../constants/constants";
+// import { P4OverviewNotion } from "../../../constants/constants";
 
 const navLinks = [
-  {
-    id: 1,
-    name: "About",
-    url: "/about",
-  },
-  {
-    id: 4,
-    name: "Testimonials",
-    url: "/testimonials",
-  },
-  {
-    name: "Learn More!",
-    url: CalendlyRoutingFormLink,
-    external: true,
-  },
+  // {
+  //   id: 1,
+  //   name: "About",
+  //   url: "/about",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Testimonials",
+  //   url: "/testimonials",
+  // },
+  // {
+  //   name: "Learn More!",
+  //   url: P4OverviewNotion,
+  //   external: true,
+  // },
 ];
 
 const Navbar = () => {

@@ -25,3 +25,10 @@ export const AcceleratorLink =
 
 // SDR Courses
 export const CoursesLink = "https://mycodecareer.samcart.com/courses/directory";
+
+// P4 Overview Notion
+export const P4OverviewNotion = "https://bit.ly/p4-overview";
+
+// Job Search Strategy Session
+export const JobSearchStrategySessionLink =
+  "https://bit.ly/Book-Free-Job-Strategy-Session";
