@@ -1,12 +1,6 @@
-import { GrFacebookOption, GrLinkedinOption, GrGithub } from "react-icons/gr";
-import { BsDiscord } from "react-icons/bs";
+import { GrLinkedinOption } from "react-icons/gr";
 import { MdOutlineEmail } from "react-icons/md";
-import {
-  DiscordLink,
-  FacebookLink,
-  LinkedInLink,
-  GithubLink,
-} from "../../../constants/constants";
+import { LinkedInLink } from "../../../constants/constants";
 
 const iconClasses = "text-2xl fill-primary cursor-pointer";
 const colStyle =
@@ -22,21 +16,9 @@ const FooterSocials = () => {
   return (
     <section className={colStyle}>
       <section className={rowStyle}>
-        <GrFacebookOption
-          className={iconClasses}
-          onClick={() => handleNavigateToAccount(FacebookLink)}
-        />
         <GrLinkedinOption
           className={iconClasses}
           onClick={() => handleNavigateToAccount(LinkedInLink)}
-        />
-        <GrGithub
-          className={iconClasses}
-          onClick={() => handleNavigateToAccount(GithubLink)}
-        />
-        <BsDiscord
-          className={iconClasses}
-          onClick={() => handleNavigateToAccount(DiscordLink)}
         />
       </section>
       <section className="flex justify-start items-center gap-1">
