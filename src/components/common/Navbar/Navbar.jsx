@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import LOGO from "../../../assets/transp-logo.png";
 import LOGOWITHTEXT from "../../../assets/logo-with-text.png";
-import { CalendlyRoutingFormLink } from "../../../constants/constants";
+import { P4OverviewNotion } from "../../../constants/constants";
 
 const navLinks = [
   {
@@ -18,7 +18,7 @@ const navLinks = [
   },
   {
     name: "Learn More!",
-    url: CalendlyRoutingFormLink,
+    url: P4OverviewNotion,
     external: true,
   },
 ];

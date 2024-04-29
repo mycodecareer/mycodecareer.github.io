@@ -1,10 +1,10 @@
-import { CalendlyRoutingFormLink } from "../../../constants/constants";
+import { P4OverviewNotion } from "../../../constants/constants";
 import Button from "./Button";
 
 const LinkButton = ({
   text = "button",
   type = "primary",
-  link = CalendlyRoutingFormLink,
+  link = P4OverviewNotion,
 }) => {
   const handleNavigation = () => {
     window.open(link, "_blank");
