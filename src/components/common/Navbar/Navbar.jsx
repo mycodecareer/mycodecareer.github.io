@@ -1,37 +1,37 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+// import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import LOGO from "../../../assets/transp-logo.png";
 import LOGOWITHTEXT from "../../../assets/logo-with-text.png";
 // import { P4OverviewNotion } from "../../../constants/constants";
 
-const navLinks = [
-  // {
-  //   id: 1,
-  //   name: "About",
-  //   url: "/about",
-  // },
-  // {
-  //   id: 4,
-  //   name: "Testimonials",
-  //   url: "/testimonials",
-  // },
-  // {
-  //   name: "Learn More!",
-  //   url: P4OverviewNotion,
-  //   external: true,
-  // },
-];
+// const navLinks = [
+// {
+//   id: 1,
+//   name: "About",
+//   url: "/about",
+// },
+// {
+//   id: 4,
+//   name: "Testimonials",
+//   url: "/testimonials",
+// },
+// {
+//   name: "Learn More!",
+//   url: P4OverviewNotion,
+//   external: true,
+// },
+// ];
 
 const Navbar = () => {
   //* STATES
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navColor, setNavColor] = useState("");
 
   //* EVENT HANDLERS
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  // const handleMenuToggle = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
 
   //* Change Navbar color on scroll
   const changeNavColor = () => {
@@ -61,7 +61,7 @@ const Navbar = () => {
         </Link>
       </div>
       {/* Maximized menu */}
-      <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
+      {/* <ul className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-6">
         {navLinks.map((link) => {
           return (
             <li key={link.name} className="ml-1 uppercase">
@@ -75,8 +75,8 @@ const Navbar = () => {
             </li>
           );
         })}
-      </ul>
-      {isMenuOpen ? (
+      </ul> */}
+      {/* {isMenuOpen ? (
         <RiCloseLine
           fontSize={"2rem"}
           className="lg:hidden cursor-pointer fixed right-4"
@@ -88,9 +88,9 @@ const Navbar = () => {
           className="lg:hidden cursor-pointer fixed right-4"
           onClick={handleMenuToggle}
         />
-      )}
+      )} */}
       {/* Dropdown Menu */}
-      {isMenuOpen && (
+      {/* {isMenuOpen && (
         <section>
           <ul className="flex flex-col justify-center items-center gap-6 p-4 absolute top-20 right-0 bg-accent w-full h-screen">
             {navLinks.map((link) => {
@@ -110,7 +110,7 @@ const Navbar = () => {
             })}
           </ul>
         </section>
-      )}
+      )} */}
     </nav>
   );
 };

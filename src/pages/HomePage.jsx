@@ -21,6 +21,7 @@ const HomePage = () => {
           link={JobSearchStrategySessionLink}
         />
       </CTA>
+      <HeaderNormal text="Testimonials" />
       <Testimonials />
       <HeaderNormal text="About Matthew" />
       <BioOneCTA />
