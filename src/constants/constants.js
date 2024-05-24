@@ -32,3 +32,6 @@ export const P4OverviewNotion = "https://bit.ly/p4-overview";
 // Job Search Strategy Session
 export const JobSearchStrategySessionLink =
   "https://bit.ly/Book-Free-Job-Strategy-Session";
+
+// Skool Community
+export const SkoolCommunityLink = "https://skool.com/my-code-career";

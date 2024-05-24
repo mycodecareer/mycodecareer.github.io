@@ -13,6 +13,7 @@ import Layout from "../common/Layout/Layout";
 import HeaderNormal from "../common/SectionHead/HeaderNormal";
 import BulletPointList from "./BulletPointList";
 import Container from "../common/Layout/Container";
+import LinkButton from "../common/CTA/LinkButton";
 
 const OurServices = () => {
   return (
@@ -65,6 +66,11 @@ const OurServices = () => {
             collabImg={CollabTwo}
             reverse={true}
           />
+          <div className="max-w-64 sm:w-72 ">
+            <LinkButton text="Learn More" />
+          </div>
+          <br />
+          <br />
         </Container>
       </Layout>
     </Container>
