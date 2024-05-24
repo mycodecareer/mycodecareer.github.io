@@ -2,6 +2,7 @@ import React from "react";
 import LinkButton from "../common/CTA/LinkButton";
 import HeaderImage from "../../assets/Programming-amico.png";
 import ImageContainer from "../common/Layout/ImageContainer";
+import { SkoolCommunityLink } from "../../constants/constants";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
             begging for referrals and sending 1000s of applications.
           </p>
           <div className="max-w-64 sm:w-72 ">
-            <LinkButton text="learn more" />
+            <LinkButton text="Join Skool" link={SkoolCommunityLink} />
           </div>
         </section>
         <ImageContainer>
