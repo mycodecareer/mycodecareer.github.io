@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.5",
     "@testing-library/user-event": "^14.5.2",
-    "daisyui": "^4.10.2",
+    "daisyui": "^4.11.1",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
