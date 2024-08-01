@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pr-preview/pr-270/static/css/main.9a8669df.css",
+    "main.js": "/pr-preview/pr-270/static/js/main.813e63a3.js",
+    "static/media/Matt_large.png": "/pr-preview/pr-270/static/media/Matt_large.1e01add0c0895931ed1b.png",
+    "static/media/matt_luna.jpeg": "/pr-preview/pr-270/static/media/matt_luna.d35b5b11f703a9c6637a.jpeg",
+    "static/media/Programming-amico.png": "/pr-preview/pr-270/static/media/Programming-amico.c1d9610a7f17c77a6201.png",
+    "static/media/Journey-amico.png": "/pr-preview/pr-270/static/media/Journey-amico.c1bf6f131c10a9440946.png",
+    "static/media/Contact us-amico.png": "/pr-preview/pr-270/static/media/Contact us-amico.38a074f577e28338a4b9.png",
+    "static/media/logo-with-text.png": "/pr-preview/pr-270/static/media/logo-with-text.c3ac5fe5292597e10b7f.png",
+    "static/media/polygon.svg": "/pr-preview/pr-270/static/media/polygon.d6e7d44ba8b553c39a08.svg",
+    "static/media/SI_talk.jpeg": "/pr-preview/pr-270/static/media/SI_talk.2f29edfc5dc167d2f236.jpeg",
+    "static/media/collab1.svg": "/pr-preview/pr-270/static/media/collab1.16dfa2a7245871b1ada49710ef04dd1f.svg",
+    "static/media/transp-logo.png": "/pr-preview/pr-270/static/media/transp-logo.47b1ee4cfc57aad77e13.png",
+    "static/media/collab2.svg": "/pr-preview/pr-270/static/media/collab2.bbd74a524e49774d835f382eaf3aee36.svg",
+    "index.html": "/pr-preview/pr-270/index.html",
+    "static/media/triangleAsymmetricalNegative.svg": "/pr-preview/pr-270/static/media/triangleAsymmetricalNegative.415f0399c0358b9ad8aa6c561707913d.svg",
+    "main.9a8669df.css.map": "/pr-preview/pr-270/static/css/main.9a8669df.css.map",
+    "main.813e63a3.js.map": "/pr-preview/pr-270/static/js/main.813e63a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a8669df.css",
+    "static/js/main.813e63a3.js"
+  ]
+}
