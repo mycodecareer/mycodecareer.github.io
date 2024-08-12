@@ -14,7 +14,7 @@
     "react-router": "^6.22.3",
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^3.5.2"
+    "web-vitals": "^4.2.2"
   },
   "scripts": {
     "predeploy": "rm -rf build && npm run build",
