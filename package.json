@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^15.0.7",
     "@testing-library/user-event": "^14.5.2",
-    "daisyui": "^4.12.10",
+    "daisyui": "^4.12.14",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-router": "^6.26.1",
-    "react-router-dom": "^6.26.2",
+    "react-router": "^6.27.0",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^4.2.3"
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "predeploy": "rm -rf build && npm run build",
@@ -46,9 +46,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^3.4.14"
   }
 }
